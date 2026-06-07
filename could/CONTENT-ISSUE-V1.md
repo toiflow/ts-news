@@ -8,6 +8,11 @@ REQUIRED FORMAT FOR EACH ISSUE ENTRY:
 ## ISSUE:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ISSUE:NEWS 2026-06-07 23:23
+- The article highlights increased military spending in Eastern European NATO countries, indicating a response to perceived threats from Russia.
+- Key risk involves potential imbalance in defense contributions between Eastern and Western members, which could strain alliance cohesion.
+- Urgent signals include the pressure on Western Europe to meet 5% GDP defense spending targets, as underlined by Trump's influence.
+
 ## ISSUE:NEWS 2026-06-07 22:59
 - St. Augustine Beach police thwarted a planned teen takeover, signaling growing tensions among youth and law enforcement.
 - The Peruvian presidential runoff between a pro-US conservative and leftist candidate could significantly impact regional geopolitics.
