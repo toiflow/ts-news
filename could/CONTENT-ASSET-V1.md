@@ -8,6 +8,13 @@ REQUIRED FORMAT FOR EACH ASSET ENTRY:
 ## ASSET:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ASSET:NEWS 2026-06-08 10:12
+- The core narrative focuses on Iran acknowledging an extraordinary detail about a targeted strike on Supreme Leader Khamenei, with U.S.-Israeli involvement suggested.
+- Domestic policy implications include potential internal Iranian reactions and shifts in leadership dynamics.
+- Foreign policy impacts may involve U.S.-Iran tensions escalating or new diplomatic efforts for de-escalation.
+- Economic effects could stem from heightened geopolitical risks, potentially affecting regional and global markets.
+- Social issues may revolve around public sentiment and stability within Iran, as well as international perceptions of the regime.
+
 ## ASSET:NEWS 2026-06-08 07:42
 - The core narrative focuses on celebrity culture and marketing through high-profile events.
 - No significant implications for domestic policy, foreign policy, or economy are evident.
