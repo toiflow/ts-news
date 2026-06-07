@@ -8,6 +8,11 @@ REQUIRED FORMAT FOR EACH ISSUE ENTRY:
 ## ISSUE:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ISSUE:NEWS 2026-06-08 10:12
+- The story involves Iran admitting to an extraordinary new detail regarding a strike that killed Supreme Leader Khamenei, implicating U.S.-Israeli precision targeting.
+- Key risks include potential escalation of tensions between Iran and the United States/Israel, destabilizing regional security dynamics in the Middle East.
+- Urgent signals worth monitoring are any further disclosures or reactions from involved parties, especially if they indicate a shift in diplomatic or military posture.
+
 ## ISSUE:NEWS 2026-06-08 07:42
 - The auction of Taylor Swift's seat highlights commercialization of sports events, raising concerns about celebrity presence influencing ticket prices.
 - This could set a precedent for future high-profile events, potentially affecting accessibility and fairness in seating arrangements.
