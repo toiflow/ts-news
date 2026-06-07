@@ -1,0 +1,65 @@
+name: would-update
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'  # every 3 hours
+  workflow_dispatch:       # allow manual run
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    outputs:
+      issue_prompt: ${{ steps.prompts.outputs.issue_prompt }}
+      asset_prompt: ${{ steps.prompts.outputs.asset_prompt }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - id: prompts
+        run: |
+          NEWS=$(node would-read-md.js)
+          echo "issue_prompt<<TS_NEWS_EOF" >> $GITHUB_OUTPUT
+          printf 'You are a political news risk analyst. Based on the Fox News headlines below, identify:\n- Any significant breaking stories or developing situations\n- Key risks or concerns for policy, society, or governance\n- Any urgent signals worth monitoring\n\nFormat your response as 3-5 short bullet points starting with a dash and space. Keep each bullet to one line. No intro sentence.\n\n' >> $GITHUB_OUTPUT
+          echo "$NEWS" >> $GITHUB_OUTPUT
+          echo "TS_NEWS_EOF" >> $GITHUB_OUTPUT
+          echo "asset_prompt<<TS_NEWS_EOF" >> $GITHUB_OUTPUT
+          printf 'You are a political news narrative analyst. Based on the Fox News headlines below, summarize:\n- The dominant story or theme of this news cycle\n- What this means for each area: domestic policy, foreign policy, economy, social issues\n- Any key signal or trend worth tracking\n\nFormat your response as 3-5 short bullet points starting with a dash and space. Keep each bullet to one line. No intro sentence.\n\n' >> $GITHUB_OUTPUT
+          echo "$NEWS" >> $GITHUB_OUTPUT
+          echo "TS_NEWS_EOF" >> $GITHUB_OUTPUT
+
+  issue:
+    needs: fetch
+    uses: toiflow/-toiflow/.github/workflows/must-update-content.yml@main
+    with:
+      prompt: ${{ needs.fetch.outputs.issue_prompt }}
+    secrets: inherit
+
+  asset:
+    needs: [fetch, issue]
+    uses: toiflow/-toiflow/.github/workflows/must-update-content.yml@main
+    with:
+      prompt: ${{ needs.fetch.outputs.asset_prompt }}
+    secrets: inherit
+
+  update:
+    needs: [issue, asset]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Update docs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ISSUE_ANALYSIS: ${{ needs.issue.outputs.response }}
+          ASSET_ANALYSIS: ${{ needs.asset.outputs.response }}
+        run: node would-update-content.js
+      - name: Update CSV log
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ASSET_ANALYSIS: ${{ needs.asset.outputs.response }}
+        run: node would-update-csv.js
