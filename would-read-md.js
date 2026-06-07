@@ -46,8 +46,8 @@ async function main() {
     try {
       const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ts-news/1.0)' } });
       if (!res.ok) { console.error(`⚠️  ${url} → ${res.status}`); continue; }
-      const parsed = parseItems(await res.text()).filter(isRelevant).slice(0, 5);
-      if (parsed.length > 0) { items = parsed; break; }
+      const parsed = parseItems(await res.text()).filter(isRelevant);
+      if (parsed.length > 0) { items = [parsed[0]]; break; }
     } catch (e) {
       console.error(`⚠️  ${e.message}`);
     }
@@ -58,9 +58,8 @@ async function main() {
     process.exit(1);
   }
 
-  const context = items.map((item, i) =>
-    `[${i + 1}] ${item.title}\n${item.pubDate}\n${item.description}\n${item.link}`
-  ).join('\n\n');
+  const item = items[0];
+  const context = `${item.title}\n${item.pubDate}\n${item.description}\n${item.link}`;
 
   process.stdout.write(context);
 }
