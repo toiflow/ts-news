@@ -8,6 +8,11 @@ REQUIRED FORMAT FOR EACH ISSUE ENTRY:
 ## ISSUE:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ISSUE:NEWS 2026-06-08 16:51
+- The trial focuses on Karmelo Anthony's use of self-defense in a murder case, intertwining race and legal complexities.
+- Key risk lies in potential bias from jurors misunderstanding context, affecting the verdict’s fairness.
+- Urgent signal is monitoring how racial dynamics influence public perception and judicial outcomes.
+
 ## ISSUE:NEWS 2026-06-08 10:12
 - The story involves Iran admitting to an extraordinary new detail regarding a strike that killed Supreme Leader Khamenei, implicating U.S.-Israeli precision targeting.
 - Key risks include potential escalation of tensions between Iran and the United States/Israel, destabilizing regional security dynamics in the Middle East.
