@@ -8,6 +8,12 @@ REQUIRED FORMAT FOR EACH ISSUE ENTRY:
 ## ISSUE:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ISSUE:NEWS 2026-06-10 16:25
+- Michael Boris upsets Trump-backed candidate Carrie Buck in Republican primary for Nevada's 1st Congressional District
+- Trump's endorsement influence may be diminishing, raising questions about his political clout
+- Potential challenge to Rep. Dina Titus could impact Democratic hold on the seat
+- Monitoring voter sentiment and party loyalty shifts within Nevada's electorate is crucial
+
 ## ISSUE:NEWS 2026-06-10 10:42
 - The incident highlights potential political polarization and its impact on sports events, raising concerns about maintaining neutrality in public spaces.
 - There is a risk of increased political divisiveness, as public figures may continue to attribute outcomes to political figures rather than performance metrics.
