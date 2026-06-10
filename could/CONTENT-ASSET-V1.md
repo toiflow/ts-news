@@ -8,6 +8,13 @@ REQUIRED FORMAT FOR EACH ASSET ENTRY:
 ## ASSET:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ASSET:NEWS 2026-06-10 16:25
+- The core narrative focuses on a Trump-backed candidate losing to another Republican in a primary election.
+- Domestic policy could see shifts if this pattern continues, with potential conflicts between Trump and Republican Party leadership.
+- No immediate impact on foreign policy as the story centers on domestic political maneuvering.
+- Economic policies may face scrutiny if there’s increased focus on internal party dynamics over economic issues.
+- Social issues are not directly addressed in the article but could be influenced by broader changes within the GOP.
+
 ## ASSET:NEWS 2026-06-10 10:42
 - The core narrative revolves around political figure Whoopi Goldberg addressing sports-related blame directed at President Trump.
 - For domestic policy, it suggests continued political polarization and personal attacks in public discourse.
