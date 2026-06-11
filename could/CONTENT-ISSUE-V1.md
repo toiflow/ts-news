@@ -8,6 +8,11 @@ REQUIRED FORMAT FOR EACH ISSUE ENTRY:
 ## ISSUE:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ISSUE:NEWS 2026-06-11 16:47
+- The FBI is training with MMA fighters, potentially setting a precedent for unconventional training methods.
+- This event could raise concerns about the security and protocols of hosting a major sports event at the White House.
+- There may be privacy and security risks associated with blending high-intensity combat training with government officials.
+
 ## ISSUE:NEWS 2026-06-11 10:55
 - The story highlights the emotional impact of immigration policies on children, sparking debate over their treatment.
 - Risks include potential escalation in public protests and increased scrutiny of detention facility conditions.
