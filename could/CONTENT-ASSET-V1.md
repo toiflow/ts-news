@@ -8,6 +8,13 @@ REQUIRED FORMAT FOR EACH ASSET ENTRY:
 ## ASSET:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ASSET:NEWS 2026-06-11 16:47
+- Core narrative: FBI agents receive combat training from UFC fighters before a high-profile MMA event.
+- Domestic policy: Enhances preparedness and cooperation between law enforcement and athletes, potentially boosting public safety.
+- Foreign policy: No direct impact as the event is domestic-focused.
+- Economy: No significant economic implications mentioned in the article.
+- Key signal: Growing collaboration between sports and security sectors, worth tracking for future integration strategies.
+
 ## ASSET:NEWS 2026-06-11 10:55
 - The core narrative focuses on the emotional impact of immigration policies on children.
 - Domestic policy may face increased scrutiny and potential reforms due to public outcry.
