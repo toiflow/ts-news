@@ -8,6 +8,11 @@ REQUIRED FORMAT FOR EACH ISSUE ENTRY:
 ## ISSUE:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ISSUE:NEWS 2026-06-11 22:51
+- Sen. Schmitt's warning highlights potential political tensions over immigration policies.
+- Key risk involves federal-state conflicts, especially regarding sanctuary cities.
+- Urgent signal: Monitoring how this funding provision impacts ICE operations and local compliance.
+
 ## ISSUE:NEWS 2026-06-11 16:47
 - The FBI is training with MMA fighters, potentially setting a precedent for unconventional training methods.
 - This event could raise concerns about the security and protocols of hosting a major sports event at the White House.
