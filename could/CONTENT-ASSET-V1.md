@@ -8,6 +8,13 @@ REQUIRED FORMAT FOR EACH ASSET ENTRY:
 ## ASSET:{NAME OF ENVIRONMENT} {YYYY-MM-DD HH:MM} → {CONTENT}
 
 ####### <!-- ANCHOR MARKER - ADD ALL NEW ASSET ENTRIES DIRECTLY BELOW THIS LINE, NEVER DELETE OR EDIT PREVIOUS ASSET ENTRIES-->
+## ASSET:NEWS 2026-06-11 22:51
+- Core narrative: Missouri senator critiques Democratic immigration policies as a threat to Western civilization.
+- Domestic policy: Increases funding for ICE may tighten border security and target sanctuary cities.
+- Foreign policy: Implies potential tensions with countries sending migrants to the U.S.
+- Economy: Could lead to stricter immigration controls affecting labor market dynamics.
+- Social issues: Likely to spark debates on immigrant rights and diversity in society.
+
 ## ASSET:NEWS 2026-06-11 16:47
 - Core narrative: FBI agents receive combat training from UFC fighters before a high-profile MMA event.
 - Domestic policy: Enhances preparedness and cooperation between law enforcement and athletes, potentially boosting public safety.
